@@ -1,4 +1,6 @@
 ﻿Bot bot = new Bot();
 
-bot.Connect();
+bot.Connect(true);
+
+Console.ReadLine();
 bot.Disconnect();
